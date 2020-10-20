@@ -1,9 +1,8 @@
-def get_fruits():
-  fruits = []
-  for count in range (5):
-    print ("please enter fruit:")
-    fruits.append(input())
+def movement():
+  movement = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
+  return movement
 
-  print("Your fruits are: {}".format(fruits))
+def run():
+  print(movement())
 
-get_fruits ()
+run()
