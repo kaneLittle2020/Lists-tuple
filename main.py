@@ -15,9 +15,9 @@ def run():
 
   for likelihood in likelihoods:
     if (likelihood[1] >=50):
-      bad_steps.append(likelihood)
-  else:
-      good_steps.append(likelihood)
+       bad_steps.append(likelihood)
+    else:
+       good_steps.append(likelihood)
 
 print ("Good step; {}, Bad steps: {}".format(len(good_steps), len (bad_steps)))
 
